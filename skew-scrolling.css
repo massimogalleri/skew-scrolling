@@ -1,0 +1,16 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem;
+
+    /* IMPORTANT! */
+    transition: transform 0.25s;
+    will-change: transform;
+}
